@@ -1,0 +1,10 @@
+export { default as ParserError } from "./ParserError";
+export { default as InvalidTokenTypeError } from "./InvalidTokenTypeError";
+export { default as UndeclaredVariableError } from "./UndeclaredVariableError";
+export { default as ExpectedTermError } from "./ExpectedTermError";
+export { default as DeclarationDeclaredVariableError } from "./DeclarationExistingVariableError";
+export { default as ExpectedBlockError } from "./ExpectedBlockError";
+export { default as DeclarationExistingFunctionError } from "./DeclarationExistingFunctionError";
+export { default as NoMainFunctionError } from "./NoMainFunctionError";
+export { default as CallingUndefinedFunctionError } from "./CallingUndefinedFunctionError";
+export { default as InvalidNumberFunctionParameters } from "./InvalidNumberFunctionParameters";

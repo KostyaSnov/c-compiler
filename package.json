@@ -1,0 +1,18 @@
+{
+  "name": "ccompiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && npx tsc-alias && set PKG_CACHE_PATH=pkg_cache&& npx pkg dist/index.js -o app.exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "pkg": "^5.8.0",
+    "tsc-alias": "^1.8.2",
+    "typescript": "^4.9.4"
+  }
+}
